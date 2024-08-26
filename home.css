@@ -33,6 +33,6 @@ header {
     height: auto;
     width: 2em;
 }
-.dropbtn:hover .dropdown-content{
+#Categoria:hover .dropdown-content{
     display:block;
 }
