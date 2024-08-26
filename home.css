@@ -1,0 +1,38 @@
+body {
+    background: #ffffff;
+}
+
+header {
+    background-color: #BC0F0F;
+    color: #fff;
+    height: 4em;
+    padding: 1em 1.2em;
+    font-size: 1em;
+    display: flex;    
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000em;
+}
+
+.opciones{
+    margin-left: 2em;
+    
+}
+.op{
+    justify-content: space-between;
+    margin-left: 1.2em;
+    font-size: 1.3em;
+}
+.dropdown-content{
+    overflow: auto;
+    display: none;
+    position:absolute ;
+    height: auto;
+    width: 2em;
+}
+.dropbtn:hover .dropdown-content{
+    display:block;
+}
